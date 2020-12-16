@@ -1,0 +1,52 @@
+body
+{
+    /* background-color: #333333; */
+    background-image:  url("../images/papyrus-dark.png");
+
+}
+
+#start
+{
+
+    background-image: url('https://dailyweb.pl/wp-content/uploads/2013/10/breaking_bad1.jpeg');
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    opacity: 0.7;
+    height: 100vh;
+}
+
+.navbar-brand,
+.nav-link
+{
+color: white!important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover
+{
+    background-color: rgba(33, 33, 33, 0.4);
+    border-radius: 20px;
+    border: 2px solid rgb(69, 161, 98);
+    color: rgb(69, 161, 98);
+}
+#nav
+{
+    transition: background-color 1s ease-in-out;
+
+}
+
+.scrolled
+{
+    background-image: url("../images/papyrus-dark.png");
+}
+
+.navbar-toggler .navbar-toggler-icon { 
+    border-color: white!important;
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+.navbar-toggler:focus {
+box-shadow: 0 0 0 0.1rem #ffffff;
+}
